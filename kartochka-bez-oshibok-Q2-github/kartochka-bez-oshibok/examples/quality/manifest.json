@@ -1,0 +1,152 @@
+[
+  {
+    "id": "match_clear",
+    "file": "match_clear.png",
+    "origin": "synthetic",
+    "inscription": "6 штук",
+    "font_px": 42,
+    "truth": "match",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "wrong_clear",
+    "file": "wrong_clear.png",
+    "origin": "synthetic",
+    "inscription": "22 штуки",
+    "font_px": 42,
+    "truth": "different",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "match_small",
+    "file": "match_small.png",
+    "origin": "synthetic",
+    "inscription": "6 штук",
+    "font_px": 14,
+    "truth": "match",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "wrong_small",
+    "file": "wrong_small.png",
+    "origin": "synthetic",
+    "inscription": "22 штуки",
+    "font_px": 14,
+    "truth": "different",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "match_busy",
+    "file": "match_busy.png",
+    "origin": "synthetic",
+    "inscription": "6 штук",
+    "font_px": 42,
+    "truth": "match",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "wrong_busy",
+    "file": "wrong_busy.png",
+    "origin": "synthetic",
+    "inscription": "22 штуки",
+    "font_px": 42,
+    "truth": "different",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "missing_busy",
+    "file": "missing_busy.png",
+    "origin": "synthetic",
+    "inscription": "",
+    "font_px": 42,
+    "truth": "missing",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "dimensions_only",
+    "file": "dimensions_only.png",
+    "origin": "synthetic",
+    "inscription": "ДЛИНА 22 СМ",
+    "font_px": 30,
+    "truth": "missing",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "price_only",
+    "file": "price_only.png",
+    "origin": "synthetic",
+    "inscription": "Цена за 6 шт",
+    "font_px": 32,
+    "truth": "review",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "gift_only",
+    "file": "gift_only.png",
+    "origin": "synthetic",
+    "inscription": "6 шт в подарок",
+    "font_px": 32,
+    "truth": "review",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "negated_label",
+    "file": "negated_label.png",
+    "origin": "synthetic",
+    "inscription": "Не количество: 6 шт",
+    "font_px": 30,
+    "truth": "review",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "range",
+    "file": "range.png",
+    "origin": "synthetic",
+    "inscription": "от 6 до 22 штук",
+    "font_px": 30,
+    "truth": "review",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "conflict",
+    "file": "conflict.png",
+    "origin": "synthetic",
+    "inscription": "6 штук      22 штуки",
+    "font_px": 30,
+    "truth": "review",
+    "expected": 6,
+    "challenge": false
+  },
+  {
+    "id": "wrong_tiny",
+    "file": "wrong_tiny.png",
+    "origin": "synthetic",
+    "inscription": "22 штуки",
+    "font_px": 6,
+    "truth": "different",
+    "expected": 6,
+    "challenge": true
+  },
+  {
+    "id": "wrong_low_contrast",
+    "file": "wrong_low_contrast.png",
+    "origin": "synthetic",
+    "inscription": "22 штуки",
+    "font_px": 14,
+    "truth": "different",
+    "expected": 6,
+    "challenge": true
+  }
+]
